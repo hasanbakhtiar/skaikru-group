@@ -1,0 +1,19 @@
+h1{
+    color: green;
+}
+
+p:nth-child(1){
+    font-weight: 100;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family:  sans-serif;
+    font-style: italic;
+    /* word-spacing: 30px;
+    letter-spacing: 20px;
+    line-height: 120px; */
+
+}
+p:nth-child(2){
+    background-color: red;
+}
