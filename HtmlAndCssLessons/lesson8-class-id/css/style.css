@@ -1,0 +1,27 @@
+/* #my-hello{
+    color: red;
+}
+#your-hello{
+    color: red;
+} */
+
+/* #my-hello,#your-hello{
+    color: red;
+} */
+
+
+.my-red{
+    color: red;
+}
+
+ul li{
+    color: red;
+}
+ol li{
+    color: blue;
+}
+
+/* .a li:nth-child(3n+2){
+    color: green;
+    font-weight: bolder;
+} */

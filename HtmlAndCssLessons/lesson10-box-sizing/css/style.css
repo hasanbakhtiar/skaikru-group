@@ -1,0 +1,38 @@
+/* 1920 x 1080 */
+
+
+.box1{
+  display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top:100px ;
+}
+
+.box2{
+    display: inline-block;
+      width: 200px;
+      height: 200px;
+      background-color:green;
+      /* margin-left:-10px ; */
+      /* padding-left: 100px; */
+
+      margin: 20px 30px 40px 50px;
+      padding: 20px 30px 40px 50px;
+      
+  }
+/* header{
+    background-color: red;
+}
+  li{
+    display: inline-block;
+    margin-left: 70px;
+  } */
+
+/* .box2{
+    display: inline-block;
+
+    width: 200px;
+    height: 200px;
+    background-color: green;
+} */
