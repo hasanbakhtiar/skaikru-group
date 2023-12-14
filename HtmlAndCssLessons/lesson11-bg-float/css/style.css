@@ -1,0 +1,40 @@
+@import url('reset.css');
+
+
+.box{
+  
+  width: 100%;
+  height: 100vh;
+  /* background-image: url('https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/master/pass/gettyimages-1146431497.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  /* border-left: 5px double #ff0000;
+  border-top: 10px solid #990bff;
+  border-right: 15px dotted #0878e1;
+  border-bottom: 9px dashed #eeff00;
+  border-top-left-radius: 50%; */
+}
+/* body,*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* .box{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+} */
+
+
+
+/* img{
+  float: left;
+}
+
+.test{
+  clear: both;
+} */
