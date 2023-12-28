@@ -1,0 +1,56 @@
+/* .box { */
+  /* width: 100px;
+  height: 100px;
+  background-color: red; */
+  /* animation-name: gotohome;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s; */
+  /* animation: gotohome 5s infinite linear;
+  position: relative;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 69% 55%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); */
+
+/* } */
+
+/* @keyframes gotohome { */
+  /* from{
+    left: 0px;
+  }
+  to{
+    left: 300px;
+  } */
+
+
+  /* 100%{
+    transform: rotate(360deg);
+  }
+   */
+  
+
+  /* 0% {
+    left: 0;
+    top: 0;
+    transform: scale(2);
+  }
+  20% {
+    left: 300px;
+    top: 0px;
+  }
+  50% {
+    left: 300px;
+    top: 300px;
+  }
+
+  75% {
+    left: 0;
+    top: 300px;
+    transform: rotate(360deg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbLwgHOwalD9rXUCg88xNG93HB7GyQnRmY3E3ZUxsCUg&s);
+    transition: 1s;
+  }
+  
+  100% {
+    left: 0px;
+    top: 0px;
+  } */
+/* } */
