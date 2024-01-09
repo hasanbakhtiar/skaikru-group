@@ -1,0 +1,41 @@
+body,*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.con{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.con .card{
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid;
+    overflow: hidden;
+}
+
+.con .card img{
+  width: 100%;
+  height: 500px;
+}
+
+.con .card .text-con{
+  padding: 20px;
+}
+
+
+@media (max-width:700px) {
+  .con{
+    height: auto;
+    flex-direction: column;
+  }
+  .con .card{
+    width: 100%;
+  }
+}
