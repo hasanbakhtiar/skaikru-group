@@ -1,0 +1,36 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+
+nav{
+    height: 70px;
+}
+
+
+.hero{
+    height: 70vh;
+    background-image: url('../img/bg-hero.svg');
+    background-repeat: no-repeat;
+    border-radius:10px ;
+    background-size: cover;
+}
+
+.menu-clr{
+    background:#fff; 
+}
+.nav-clr{
+    border-radius: 100px;
+    
+    background-color: #C1DEE8 ;
+    
+}
+
+.service .card{
+    border: none;
+}
+
+
+@media (max-width:800px) {
+    #hero-photo{
+        display: none !important;
+    }
+}
