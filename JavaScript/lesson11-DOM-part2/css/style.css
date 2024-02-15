@@ -1,0 +1,68 @@
+.light .cards{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/04/Nature-Water-Wallpapers-Desktop-download.jpg');
+}
+
+.light .cards .single-card{
+    background-color: #fff;
+    border-color: #000;
+    color: #000;
+}
+
+
+.dark .cards{
+    background-image: url('https://wallpapercave.com/wp/wp2737816.jpg');
+}
+
+.dark .cards .single-card{
+    background-color: #000;
+    border-color: #fff;
+    color: #fff;
+}
+
+
+.cards{
+    margin-top: 20px;
+    height: 100vh;
+}
+.cards .single-card{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+
+
+html{
+    overflow-x: hidden;
+}
+menu{
+    
+    position: absolute;
+    right: 0;
+    top: 35px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 107, 169);
+    height: 400px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: 1s;
+}
+.hidden{
+    transform: translateX(400px);
+}
+
+.show{
+    transform: translateX(0px);
+}
+menu ul li{
+    color: #fff;
+    font-size: 20px;
+    padding: 0;
+    list-style: none;
+}
