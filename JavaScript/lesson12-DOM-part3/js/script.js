@@ -7,13 +7,24 @@
 
 
 const ipt = document.querySelector("input");
-const btn = document.querySelector("button");
+const form = document.querySelector("form");
 const ul = document.querySelector('ul');
 
-btn.onclick = ()=>{
-    let liElem = document.createElement('li');
+form.onsubmit = (e)=>{
+    e.preventDefault();
+    if (!ipt.value) {
+        alert('test')
+    }else{
+        let liElem = document.createElement('li');
         liElem.innerHTML = ipt.value;
         ul.appendChild(liElem);
         ipt.value = "";
+        liElem.onclick=()=>{
+            liElem.style.textDecoration = "line-through"
+        }
+        liElem.ondblclick =()=>{
+            liElem.remove();
+        }
+    }
 }
 
