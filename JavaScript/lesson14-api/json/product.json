@@ -1,0 +1,25 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title":"Samsung S24 Ultra",
+            "price":3400,
+            "stock":10,
+            "newDevice":true
+        },
+        {
+            "id":2,
+            "title":"Honor x9a",
+            "price":350,
+            "stock":1,
+            "newDevice":false
+        },
+        {
+            "id":3,
+            "title":"Xiaomi 14",
+            "price":1900,
+            "stock":200,
+            "newDevice":[true,false]
+        }
+    ]
+}
