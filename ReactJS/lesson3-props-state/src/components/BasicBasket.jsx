@@ -39,9 +39,11 @@ import React, { Component } from 'react'
         <button onClick={this.decrement} className='btn btn-danger'>-</button>
         <span className='mx-3'>{this.state.count}</span>
         <button className='btn btn-success' onClick={()=>{
-        this.setState({
-            count: this.state.count + 1
-        })
+        if (this.state.count<this.state.productdata.stock) {
+            this.setState({
+                count: this.state.count + 1
+            })
+        }
     }}>+</button>
         </div>
         </div>
