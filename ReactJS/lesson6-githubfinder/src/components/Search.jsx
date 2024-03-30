@@ -22,7 +22,6 @@ const Search = ({comingKeyword,sendStatus}) => {
                         <input onChange={e=>setKeyword(e.target.value)} type="text" className="form-control" placeholder="Enter username"  />
                         <button className="btn btn-dark" type="submit" >Search</button>
                     </form>
-
                 </div>
             </div>
         </div>
