@@ -1,14 +1,17 @@
 import React, { useState } from 'react'
 
-const Search = ({comingKeyword}) => {
+const Search = ({comingKeyword,sendStatus}) => {
     const [keyword,setKeyword] = useState("");
+    const [status] = useState('no user');
     const formSubmited = e =>{
         e.preventDefault();
         if (!keyword) {
             alert('please, enter username');
         }else{
             comingKeyword(keyword);
+            sendStatus(status);
         }
+        
     }
     
     return (
