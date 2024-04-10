@@ -1,0 +1,8 @@
+.swal-button{
+    background-color: #333 !important;
+}
+.active{
+    background-color: #333 !important;
+    box-shadow: none;
+    border: none;
+}

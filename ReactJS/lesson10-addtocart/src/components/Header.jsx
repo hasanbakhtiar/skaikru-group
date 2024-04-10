@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { useCart } from 'react-use-cart'
 
 const Header = () => {
+    const {totalItems} = useCart();
     return (
         <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
             <div className="container">
@@ -22,9 +24,9 @@ const Header = () => {
                         </li>
                     </ul>
                     <Link to="/basket" className="btn btn-warning position-relative">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                            0
+                    <i className="fa-solid fa-cart-shopping"></i>
+                        <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            {totalItems}
                         </span>
                     </Link>
                 </div>
