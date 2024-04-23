@@ -81,10 +81,10 @@ const Header = () => {
                         </div>
                     </div>
 
-                    <Link to="/basket" className="btn btn-warning position-relative">
+                    <Link to={localStorage.getItem('token')?"/basket":"/login"} className="btn btn-warning position-relative">
                         <i className="fa-solid fa-cart-shopping"></i>
                         <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                            {totalItems}
+                            {localStorage.getItem('token')?totalItems:0}
                         </span>
                     </Link>
                     

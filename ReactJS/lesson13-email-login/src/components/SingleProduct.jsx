@@ -19,7 +19,7 @@ const SingleProduct = ({alldata}) => {
                 <div className="card-body">
                     <h5 className="card-title">{alldata.title.slice(0,10)}...</h5>
                     <p className="card-text">{alldata.description.slice(0,30)}...</p>
-                    <button onClick={()=>{addItem(alldata);swal("Good job!", "Product add to basket!", "success");}} className='btn btn-warning me-3'>Add to cart</button>
+                    <button onClick={localStorage.getItem('token')?()=>{addItem(alldata);swal("Good job!", "Product add to basket!", "success");}:()=>{window.location.assign('/login')}} className='btn btn-warning me-3'>Add to cart</button>
                     <Link to={`/products/${slugify(alldata.title)}`}  className="btn btn-dark">More details</Link>
                 </div>
             </div>
