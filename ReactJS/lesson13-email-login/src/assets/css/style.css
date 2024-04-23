@@ -1,0 +1,18 @@
+
+
+.dark .card{
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+.swal-button{
+    background-color: #333 !important;
+}
+.active{
+    background-color: #333 !important;
+    box-shadow: none;
+    border: none;
+    color: orange !important;
+}
