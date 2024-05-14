@@ -1,0 +1,37 @@
+.box{
+    margin-left: 300px;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    @include center();
+    .little-box{
+        width: 200px;
+        height: 200px;
+        @if($mycolor==#fff){
+            background-color: $mycolor;
+        }@else{
+            background-color: red;
+        }
+        @include center();
+    
+        .more-little-box{
+            // @extend .box;
+            @extend .swal-button;
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+
+// $base-color: rgb(0, 211, 134);
+
+// @for $i from 1 through 10 {
+//   li:nth-child(3n + #{$i}) {
+//     background-color: darken($base-color, $i * 5%);
+//   }
+// }
+
+
+
+
