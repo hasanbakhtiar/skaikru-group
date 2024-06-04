@@ -15,9 +15,14 @@ const todoSlice = createSlice({
         add:(state,action:PayloadAction)=>{
                 const newTodo:any = {id:crypto.randomUUID(),text:action.payload}
                 state.push(newTodo)
+        },
+        remove:(state,action:PayloadAction)=>{
+            return state.filter(( item:any ) => {
+                return item.id !== action.payload
+            })
         }
     }
 })
 
-export const {add} = todoSlice.actions;
+export const {add,remove} = todoSlice.actions;
 export default todoSlice.reducer;
